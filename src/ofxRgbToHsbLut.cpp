@@ -33,6 +33,6 @@ void ofxRgbToHsbLut::createLUT(){
 }
 
 
-const ofColor& ofxRgbToHsbLut::rgbToHsb(const ofColor & c) const{
+const ofColor& ofxRgbToHsbLut::rgbToHsb(const ofColor & c) {
 	return lut[c.r][c.g][c.b];
 }

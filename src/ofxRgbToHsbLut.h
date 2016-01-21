@@ -18,7 +18,7 @@ public:
 	ofxRgbToHsbLut();
 
 	static void createLUT();
-	const ofColor& rgbToHsb(const ofColor & c) const;
+	static const ofColor& rgbToHsb(const ofColor & c) ;
 
 protected:
 
