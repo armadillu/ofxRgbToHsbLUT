@@ -10,7 +10,7 @@
 
 
 bool ofxRgbToHsbLut::inited = false;
-ofColor ofxRgbToHsbLut::lut[256][256][256] = {ofColor::white};
+ofColor ofxRgbToHsbLut::lut[256][256][256];
 
 void ofxRgbToHsbLut::createLUT(){
 	if(!inited){
